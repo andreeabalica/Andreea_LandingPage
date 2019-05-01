@@ -90,27 +90,27 @@
       color-stop(75%, rgba(22, 22, 22, 0.7)),
       to(#161616)
     ),
-    url(../img/bg-masthead.jpg);
+    url(../img/david-ngo-1476064-unsplash.jpg);
   background: linear-gradient(
       to bottom,
       rgba(22, 22, 22, 0.3) 0,
       rgba(22, 22, 22, 0.7) 75%,
       #161616 100%
     ),
-    url(../img/bg-masthead.jpg);
+    url(../img/david-ngo-1476064-unsplash.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
 }
 .masthead h1 {
-  font-family: "Varela Round";
+  font-family: "Montserrat", sans-serif;
   font-size: 2.5rem;
   line-height: 2.5rem;
   letter-spacing: 0.8rem;
   background: -webkit-linear-gradient(
     rgba(255, 255, 255, 0.9),
-    rgba(255, 255, 255, 0)
+    rgba(255, 255, 255, 0.4)
   );
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
@@ -179,6 +179,13 @@
     rgba(22, 22, 22, 0.9) 75%,
     rgba(22, 22, 22, 0.8) 100%
   );
+}
+
+.top-right {
+  position: absolute;
+  top: 8px;
+  right: -65px;
+  background-color: white;
 }
 .about-section p {
   margin-bottom: 5rem;
